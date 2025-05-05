@@ -35,6 +35,7 @@ const Footer = () => {
         copyright &copy; Backroads travel tours company
         <span id="date"></span> all rights reserved
       </p>
+      <p><a href="https://www.killertechwolf.com/SeanProjects/Index.html" className="footer-link">Sean Projects Top</a></p>
     </footer>
   );
 };

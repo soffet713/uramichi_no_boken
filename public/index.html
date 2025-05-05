@@ -31,7 +31,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Backroads App</title>
+    <title>Uramichi no Boken</title>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var currentYear = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = currentYear;
+      });
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
